@@ -144,12 +144,17 @@ input {
   margin-bottom: 10px;
 }
 
-input:focus{
-border: 1px solid green;
+input:valid{
+border: 0.5px solid green;
 }
 
 input:invalid {
   border: 1px solid red;
+}
+
+form p {
+  font-size: .8em;
+  color: red;
 }
 
 .submit {
