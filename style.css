@@ -104,14 +104,16 @@ width: auto;
   
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 50px ;
+  background-color: white;
+  padding-bottom: 20px;
 }
 
-.excl-button {
-  background-color: white;
-}
+
+
 
 h2 {
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .main-input-container{
@@ -128,6 +130,7 @@ h2 {
 
 }
 
+
 label {
   font-size: 12px;
   font-weight: 550;
@@ -136,7 +139,17 @@ label {
 
 input {
   border-radius: 4px;
-  
+  border: 1px solid #E5E7EB;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+input:focus{
+border: 1px solid green;
+}
+
+input:invalid {
+  border: 1px solid red;
 }
 
 .submit {
@@ -148,6 +161,8 @@ input {
   height: 50px;
   width: 170px;
   font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 50px;
 }
 
 .login {
