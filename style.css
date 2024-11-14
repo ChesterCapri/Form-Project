@@ -23,7 +23,7 @@
   }
   
   input, button, textarea, select {
-    font: inherit;
+    
   }
   
   p, h1, h2, h3, h4, h5, h6 {
@@ -165,13 +165,13 @@ form p {
   color: white;
   border-style: none;
   border-radius: 6px;
-  height: 50px;
-  width: 170px;
+  height: 80px;
+  width: 200px;
   font-weight: 600;
   font-family: 'Futura' , Arial, Helvetica, sans-serif;
   margin-left: 50px;
   box-shadow: 8px 20px 20px hsla(0, 0%, 0%, 0.05);
-
+ 
 }
 
 .login {
