@@ -9,6 +9,7 @@
   
   * {
     margin: 0;
+    
   }
   
   body {
@@ -94,22 +95,20 @@ width: auto;
 
 .blurb {
   font-size: 1.5em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Futura' , Arial, Helvetica, sans-serif;
   font-weight: 800;
-  padding :120px 100px 50px 50px;
-  
+  padding :100px 100px 50px 50px;  
 }
+
 
 #form {
   
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Futura' , Arial, Helvetica, sans-serif;
   padding-left: 50px ;
   background-color: white;
   padding-bottom: 20px;
+  box-shadow: 2px 5px #E5E7EB;
 }
-
-
-
 
 h2 {
   padding-top: 20px;
@@ -119,7 +118,7 @@ h2 {
 .main-input-container{
   display: flex;
   gap: 100px;
-  font-family:'Tahoma',sans-serif ;
+  font-family:'Futura' , Arial, Helvetica, sans-serif;
   font-weight: 500;
   
 }
@@ -142,6 +141,7 @@ input {
   border: 1px solid #E5E7EB;
   width: 250px;
   margin-bottom: 10px;
+  padding: 5px 5px 5px 10px
 }
 
 input:valid{
@@ -166,12 +166,14 @@ form p {
   height: 50px;
   width: 170px;
   font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Futura' , Arial, Helvetica, sans-serif;
   margin-left: 50px;
+  box-shadow: 2px 3px 10px #E5E7EB;
+
 }
 
 .login {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Futura' , Arial, Helvetica, sans-serif;
   margin-left: 50px;
   margin-top: 20px;
   font-weight: 600;
