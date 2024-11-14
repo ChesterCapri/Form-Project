@@ -107,12 +107,13 @@ width: auto;
   padding-left: 50px ;
   background-color: white;
   padding-bottom: 20px;
-  box-shadow: 2px 5px #E5E7EB;
+  box-shadow: 8px 20px 20px hsla(0, 0%, 0%, 0.05);
 }
 
 h2 {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-weight: 400;
 }
 
 .main-input-container{
@@ -132,8 +133,9 @@ h2 {
 
 label {
   font-size: 12px;
-  font-weight: 550;
+  font-weight: 400;
   letter-spacing: 1px;
+  margin-bottom: 5px;
 }
 
 input {
@@ -168,7 +170,7 @@ form p {
   font-weight: 600;
   font-family: 'Futura' , Arial, Helvetica, sans-serif;
   margin-left: 50px;
-  box-shadow: 2px 3px 10px #E5E7EB;
+  box-shadow: 8px 20px 20px hsla(0, 0%, 0%, 0.05);
 
 }
 
@@ -176,7 +178,7 @@ form p {
   font-family: 'Futura' , Arial, Helvetica, sans-serif;
   margin-left: 50px;
   margin-top: 20px;
-  font-weight: 600;
+  font-weight: 400;
  
 }
 
